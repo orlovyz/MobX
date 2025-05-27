@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MobX ToDo SPA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 Список задач</h1>
+    <div id="todo-app">
+      <input type="text" id="new-task" placeholder="Введите задачу..." />
+      <button id="add-task">Добавить</button>
+      <ul id="task-list"></ul>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/mobx@6.12.0/dist/mobx.umd.production.min.js"></script>
+  <script src="https://unpkg.com/mobx-utils@6.1.5/dist/mobx-utils.umd.production.min.js"></script>
+
+  <script src="app.js"></script>
+</body>
+</html>
